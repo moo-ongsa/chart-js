@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import type { PluginAPI } from "tailwindcss/types/config";
 
 const config: Config = {
   content: [
@@ -156,7 +157,7 @@ const config: Config = {
   plugins: [
     require("tailwindcss-animate"),
     require("tailwind-scrollbar")({ nocompatible: true }),
-    function ({ addUtilities }) {
+    function ({ addUtilities }: PluginAPI) {
       const newUtilities = {
         ".text-balance": {
           textWrap: "balance",
@@ -370,7 +371,7 @@ const config: Config = {
           lineHeight: "170%",
         },
       };
-      addUtilities(newUtilities, ["responsive", "hover"]);
+      addUtilities(newUtilities);
     },
   ],
 };
