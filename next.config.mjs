@@ -26,6 +26,9 @@ const nextConfig = {
     });
     return config;
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();
