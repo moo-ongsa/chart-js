@@ -50,7 +50,7 @@ const DrinkingLocationCardLock: FC<DrinkingLocationCardLockProps> = ({
       <NoPermissionDashboard
         title={t("drinkingLocation")}
         subTitle={t("drinkingLocationLockDescription")}
-        beans={20}
+        beans={data?.price}
         onClickUnlockButton={onClickUnlockButton}
         className="max-w-[290px]"
         isLoading={loading}

@@ -50,7 +50,7 @@ const PreferredCostForWorkshopCardLock: FC<
       <NoPermissionDashboard
         title={t("preferredCostForWorkshop")}
         subTitle={t("preferredCostForWorkshopLockDescription")}
-        beans={20}
+        beans={data?.price}
         onClickUnlockButton={onClickUnlockButton}
         className="max-w-[314px]"
         isLoading={loading}

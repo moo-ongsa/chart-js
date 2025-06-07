@@ -49,7 +49,7 @@ const CoffeeContentOpportunityCardLock: FC<
       <NoPermissionDashboard
         title={t("coffeeContentOpportunity")}
         subTitle={t("coffeeContentOpportunityLockDescription")}
-        beans={20}
+        beans={data?.price}
         onClickUnlockButton={onClickUnlockButton}
         className="max-w-[329px]"
         isLoading={loading}

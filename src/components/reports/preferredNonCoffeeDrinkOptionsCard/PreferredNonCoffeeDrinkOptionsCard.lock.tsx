@@ -50,7 +50,7 @@ const PreferredNonCoffeeDrinkOptionsCardLock: FC<
       <NoPermissionDashboard
         title={t("preferredNonCoffeeDrinkOptions")}
         subTitle={t("preferredNonCoffeeDrinkOptionsLockDescription")}
-        beans={20}
+        beans={data?.price}
         onClickUnlockButton={onClickUnlockButton}
         className="max-w-[244px]"
         isLoading={loading}
