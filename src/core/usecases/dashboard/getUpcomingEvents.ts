@@ -1,11 +1,12 @@
 import { IUpcomingEventsGetByAreaParams } from "@/core/interfaces/IUpcomingEventsRepositoryParams";
+import { IUpcomingEventsGetByAreaResponse } from "@/core/interfaces/IUpcomingEventsRepositoryResponses";
 import { UpcomingEventsRepository } from "@/data/repositories/UpcomingEventsRepository";
 import { dummyUpcomingEvents } from "@/mock/dummyUpcomingEvents";
 import { ERROR_MESSAGE } from "@/utils/constants";
 
 export const getUpcomingEvents = async ({
   area,
-}: IUpcomingEventsGetByAreaParams) => {
+}: IUpcomingEventsGetByAreaParams): Promise<IUpcomingEventsGetByAreaResponse> => {
   if (typeof window !== "undefined") {
     const currentUrl = window.location.href;
     if (currentUrl.includes("/en/dashboard-lock")) {
