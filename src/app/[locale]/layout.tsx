@@ -20,7 +20,7 @@ export const metadata = {
   title: "ChartJS",
   description: "PiggyPigs with ChartJS",
   icons: {
-    icon: "/logo.svg",
+    icon: "/favicon.ico",
   },
 };
 
