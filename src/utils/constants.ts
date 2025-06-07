@@ -1,0 +1,75 @@
+export enum VALUE_TYPE {
+  VALUE = "VALUE",
+  PERCENT = "PERCENT",
+}
+
+export enum TRANSlATION_KEY {
+  COMMON = "Common",
+  ERROR = "Error",
+  NAVBAR = "Navbar",
+  HEADER = "Header",
+  LOGIN_PAGE = "LoginPage",
+  REGISTER_PAGE = "RegisterPage",
+  DASHBOARD_PAGE = "DashboardPage",
+  QUIZ_LANDING = "QuizLandingPage",
+  QUIZ_DRINKING_LEVEL = "QuizDrinkingLevelPage",
+  QUIZ_NONE_COFFEE_MENU_PAGE = "QuizNoneCoffeeMenuPage",
+  QUIZ_HOT_OR_COLD_COFFEE_PAGE = "QuizHotOrColdCoffeePage",
+  QUIZ_FAVORITE_COFFEE_MENU_PAGE = "QuizFavoriteCoffeeMenuPage",
+  QUIZ_EQUIPMENT_TO_USE_PAGE = "QuizEquipmentToUsePage",
+  QUIZ_FAVORITE_TEST_NOTES_PAGE = "QuizFavoriteTasteNotesPage",
+  QUIZ_ROAST_LEVEL_PAGE = "QuizRoastLevelPage",
+  QUIZ_DRINKING_PLACE_PAGE = "QuizDrinkingPlacePage",
+  QUIZ_DRINKING_TIME_PAGE = "QuizDrinkingTimePage",
+  QUIZ_COFFEE_PER_CUP_PAGE = "QuizCoffeePerCupPage",
+  QUIZ_FAVORITE_COFFEE_SHOP_PAGE = "QuizFavoriteCoffeeShopPage",
+  QUIZ_FAVORITE_COFFEE_BEAN_PAGE = "QuizFavoriteCoffeeBeanPage",
+  QUIZ_MONTHLY_EQUIPMENT_SET_PICKER_PAGE = "QuizMonthlyEquipmentSetPickerPage",
+  QUIZ_PURCHASE_CHANNEL_PAGE = "QuizPurchaseChannelPage",
+  QUIZ_BARISTA_SCENARIO_PAGE = "QuizBaristaScenarioPage",
+  QUIZ_GROUP_ROLE_SCENARIO_PAGE = "QuizGroupRoleScenarioPage",
+  QUIZ_FREE_COFFEE_COUPON_SCENARIO_PAGE = "QuizFreeCoffeeCouponScenarioPage",
+  QUIZ_ARTICLE_INTEREST_PAGE = "QuizArticleInterestPage",
+  QUIZ_PLATFORM_PAGE = "QuizPlatformPage",
+  FEEDBACK_DRAWER = "FeedbackDrawer",
+  QUIZ_RESULT_NON_COFFEE_PAGE = "QuizResultNonCoffeePage",
+  QUIZ_RESULT_MARAGOGYPE_PAGE = "QuizResultMaragogypePage",
+}
+
+export enum ZODIAC {
+  ARIES = "aries",
+  TAURUS = "taurus",
+  GEMINI = "gemini",
+  CANCER = "cancer",
+  LEO = "leo",
+  VIRGO = "virgo",
+  LIBRA = "libra",
+  SCORPIO = "scorpio",
+  SAGITTARIUS = "sagittarius",
+  CAPRICORN = "capricorn",
+  AQUARIUS = "aquarius",
+  PISCES = "pisces",
+}
+
+export enum ERROR_MESSAGE {
+  NO_PERMISSION_TO_SEE_DASHBOARD = "NO_PERMISSION_TO_SEE_DASHBOARD",
+  FAILED_TO_AUTHENTICATE_TOKEN = "Failed to authenticate token",
+}
+
+export enum PERMISSION {
+  COFEE_PURCHASE_FACTOR = "coffee-purchase-factor",
+  POPULAR_TASTE_NOTE = "popular-taste-note",
+  DRINKING_LOCATION = "drinking-location",
+  COMMERCIAL_COFFEE_SHOP = "commercial-coffee-shop",
+  PREFERRED_BREWING_METHOD = "preferred-brewing-method",
+  ROAST_LEVEL = "roast-level",
+  SPECIALIST_COMMON = "specialist-common",
+  PREFERRED_COST_WORKSHOP = "preferred-cost-workshop",
+  CONTENT_OPPORTUNITY = "content-opportunity",
+  PREFERRED_MENU = "preferred-menu",
+  NONE_COFFEE_PREFERRED_MENU = "none-coffee-preferred-menu",
+  SALES_CHANNEL = "sales-channel",
+  TOP_BEAN_BY_ORIGIN = "top-bean-by-origin",
+  UPCOMING_EVENT = "upcoming-event",
+  ALL_DASHBOARD = "all-dashboard",
+}

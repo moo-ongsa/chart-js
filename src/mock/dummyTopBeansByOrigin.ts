@@ -1,0 +1,35 @@
+import { ITopBeansByOriginGetAllResponse } from "@/core/interfaces/ITopBeansByOriginRepositoryResponses";
+
+export const dummyTopBeansByOrigin: ITopBeansByOriginGetAllResponse = {
+  thaiPercent: 60,
+  importedPercent: 40,
+  dataLocal: [
+    { id: 1, name: "Doi Chang", percent: 15, countryCode: "TH" },
+    { id: 2, name: "Doi Tung", percent: 10, countryCode: "TH" },
+    { id: 3, name: "Mae Salong", percent: 8, countryCode: "TH" },
+    { id: 4, name: "Chiang Rai Estate", percent: 6, countryCode: "TH" },
+    { id: 5, name: "Nan Highlands", percent: 5, countryCode: "TH" },
+    { id: 6, name: "Chiang Mai Hill Beans", percent: 4, countryCode: "TH" },
+    { id: 7, name: "Pang Khon", percent: 4, countryCode: "TH" },
+    { id: 8, name: "Mae Kampong", percent: 3, countryCode: "TH" },
+    { id: 9, name: "Phu Chi Fa", percent: 3, countryCode: "TH" },
+    { id: 10, name: "Wiang Pa Pao", percent: 2, countryCode: "TH" },
+  ],
+  dataImported: [
+    { id: 11, name: "Ethiopia Yirgacheffe", percent: 6, countryCode: "ET" },
+    { id: 12, name: "Colombian Supremo", percent: 5, countryCode: "CO" },
+    { id: 13, name: "Kenya AA", percent: 5, countryCode: "KE" },
+    { id: 14, name: "Guatemala Antigua", percent: 4, countryCode: "GT" },
+    { id: 15, name: "Sumatra Mandheling", percent: 3, countryCode: "ID" },
+    { id: 16, name: "Brazil Santos", percent: 3, countryCode: "BR" },
+    { id: 17, name: "Panama Geisha", percent: 3, countryCode: "PA" },
+    { id: 18, name: "Honduras Marcala", percent: 2, countryCode: "HN" },
+    { id: 19, name: "Rwanda Nyungwe", percent: 2, countryCode: "RW" },
+    { id: 20, name: "Costa Rica Tarrazu", percent: 2, countryCode: "CR" },
+    { id: 21, name: "Mexico Chiapas", percent: 1, countryCode: "MX" },
+    { id: 22, name: "Tanzania Peaberry", percent: 1, countryCode: "TZ" },
+    { id: 23, name: "Vietnam Da Lat", percent: 1, countryCode: "VN" },
+    { id: 24, name: "India Monsooned Malabar", percent: 1, countryCode: "IN" },
+    { id: 25, name: "Laos Bolaven Plateau", percent: 1, countryCode: "LA" },
+  ],
+};

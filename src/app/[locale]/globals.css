@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Anuphan", Inter, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0a0a0d;
+    --card: #ffffff;
+    --card-foreground: #0a0a0d;
+    --popover: #ffffff;
+    --popover-foreground: #0a0a0d;
+    --primary: #19191c;
+    --primary-foreground: #fafafa;
+    --secondary: #f4f4f7;
+    --secondary-foreground: #19191c;
+    --muted: #f4f4f7;
+    --muted-foreground: #677185;
+    --accent: #f1f6f8;
+    --accent-foreground: #19191c;
+    --destructive: #fb5050;
+    --destructive-foreground: #fafafa;
+    --border: #e5eaf1;
+    --input: #e5eaf1;
+    --ring: #0a0a0d;
+    --chart-1: #f07850;
+    --chart-2: #299d90;
+    --chart-3: #284754;
+    --chart-4: #f2be62;
+    --chart-5: #f1a14b;
+    --radius: 0.5rem;
+    --text-main: #03040d;
+    --text-main-light: #03040d80;
+    --text-secondary: #7a7d85;
+    --text-brown: #846e52;
+    --blur-20: 20px;
+    --box-shadow-white: #ffffff40;
+    --box-shadow-black: #0000000d;
+    --light-gold: #d5b27a33;
+    --light-gold-secondary: #d5b27a80;
+    --slider: #d5b27a;
+    --slider-background: #d9d9d9;
+    --black: #000000;
+    --flesh: #fff9e0;
+    --bg-03: #a57d66;
+
+    /* quiz */
+    --quiz-primary-orange: #ed9154;
+    --quiz-primary-brown: #7d6151;
+    --quiz-primary-blue: #8cc9c1;
+    --quiz-bg-01: #f9efe3;
+    --quiz-bh-02: #ffffff;
+    --quiz-bg-03: #f9ccae;
+    --quiz-text-black: #3d3632;
+    --quiz-button-primary: #ed9154;
+    --quiz-button-primary-hover: #d5834c;
+    --quiz-button-quiz-active: #fbf8f5;
+    --quiz-button-quiz-hover: #fcefe5;
+    --quiz-button-secondary-active: #f2b287;
+    --quiz-button-secondary-hover: #f5c19f;
+    --quiz-button-input-disabled: #eeeeee;
+    --quiz-button-input-disabled-border: #909090;
+    --quiz-button-input-active: #f2f6f6;
+    --quiz-button-input-focus: #d4e2e0;
+    --quiz-input-active: #f2f6f6;
+    --quiz-input-focus: #d4e2e0;
+    --quiz-input-disabled: #eeeeee;
+    --quiz-input-disabled-border: #909090;
+  }
+
+  .dark {
+    --background: #0a0a0d;
+    --foreground: #fafafa;
+    --card: #0a0a0d;
+    --card-foreground: #fafafa;
+    --popover: #0a0a0d;
+    --popover-foreground: #fafafa;
+    --primary: #fafafa;
+    --primary-foreground: #19191c;
+    --secondary: #27272d;
+    --secondary-foreground: #fafafa;
+    --muted: #27272d;
+    --muted-foreground: #677185;
+    --accent: #f1f6f8;
+    --accent-foreground: #fafafa;
+    --destructive: #fb5050;
+    --destructive-foreground: #fafafa;
+    --border: #e5eaf1;
+    --input: #e5eaf1;
+    --ring: #d1d2e5;
+    --chart-1: #3d72ff;
+    --chart-2: #2fcca6;
+    --chart-3: #f2a653;
+    --chart-4: #c266f2;
+    --chart-5: #f25a85;
+    --text-main: #03040d;
+    --text-main-light: #03040d80;
+    --text-secondary: #7a7d85;
+    --text-brown: #846e52;
+    --blur-20: 20px;
+    --box-shadow-white: #ffffff40;
+    --box-shadow-black: #0000000d;
+    --light-gold: #d5b27a33;
+    --light-gold-secondary: #d5b27a80;
+    --slider: #d5b27a;
+    --slider-background: #d9d9d9;
+    --black: #000000;
+    --flesh: #fff9e0;
+    --bg-03: #a57d66;
+
+    /* quiz */
+    --quiz-primary-orange: #ed9154;
+    --quiz-primary-brown: #7d6151;
+    --quiz-primary-blue: #8cc9c1;
+    --quiz-bg-01: #f9efe3;
+    --quiz-bh-02: #ffffff;
+    --quiz-bg-03: #f9ccae;
+    --quiz-text-black: #3d3632;
+    --quiz-button-primary: #ed9154;
+    --quiz-button-primary-hover: #d5834c;
+    --quiz-button-quiz-active: #fbf8f5;
+    --quiz-button-quiz-hover: #fcefe5;
+    --quiz-button-secondary-active: #f2b287;
+    --quiz-button-secondary-hover: #f5c19f;
+    --quiz-button-input-disabled: #eeeeee;
+    --quiz-button-input-disabled-border: #909090;
+    --quiz-button-input-active: #f2f6f6;
+    --quiz-button-input-focus: #d4e2e0;
+    --quiz-input-active: #f2f6f6;
+    --quiz-input-focus: #d4e2e0;
+    --quiz-input-disabled: #eeeeee;
+    --quiz-input-disabled-border: #909090;
+  }
+}
